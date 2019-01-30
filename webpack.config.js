@@ -65,7 +65,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'template.ejs',
       appMountId: 'app-root',
-      title: 'Set Index Title Tags Here',
+      title: 'Weather App',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
